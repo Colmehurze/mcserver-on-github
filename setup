@@ -2,4 +2,11 @@ wget https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba5990
 
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz 
 
-tar -xvf ₹
+tar -xvf *tgz
+
+sudo apt install default-jdk
+
+java -Xmx2048M -Xms2048M -jar server.jar nogui 
+
+
+
